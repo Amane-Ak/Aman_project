@@ -9,9 +9,9 @@ import os
 application = Flask(__name__)
 app=application
 
-# scaler_path = os.path.join(r"H:\Pregrad_Course\My_Project\Model","standardScalar.pkl")
-scaler =pickle.load(open(r"H:\Pregrad_Course\My_Project\Model\standardScaler.pkl", "rb"))
-model  = pickle.load(open(r"H:\Pregrad_Course\My_Project\Model\modelforPrecision.pkl", "rb"))
+# scaler_path = os.path.join(r"D:\Pregrad_Course\My_Project\Model","standardScalar.pkl")
+scaler =pickle.load(open(r"D:\Pregrad_Course\My_Project\Model\standardScaler.pkl", "rb"))
+model  = pickle.load(open(r"D:\Pregrad_Course\My_Project\Model\modelforPrecision.pkl", "rb"))
 
 
 @app.route('/')
