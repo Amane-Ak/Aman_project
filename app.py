@@ -1,7 +1,7 @@
 from flask import Flask, request, app,render_template
 from flask import Response
 import pickle
-import numpy as np
+import numpy as ny
 import pandas as pd
 import os
 
